@@ -1,0 +1,13 @@
+---
+- name: test playbook
+  hosts: localhost
+  roles:
+  - rajveer
+  tasks:
+  - name: shell 
+    shell: "{{ cmd }}"
+    register: cmd_output
+
+  - debug: var=cmd_output
+  
+  
