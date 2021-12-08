@@ -1,6 +1,6 @@
 ---
 roles:
- - src: rajsingh@192.168.122.1:/home/rajsingh/git/rajveer.git
+ - src: https://github.com/singhr49/rajveer.git
    name: rajveer
    scm: git
 
