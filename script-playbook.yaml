@@ -1,0 +1,11 @@
+---
+- name: test playbook
+  hosts: all
+  tasks:
+  - name: Run a script with arguments (free form)
+    ansible.builtin.script: hello-script.sh
+    #register: cmd_output
+
+  #- debug: var=cmd_output
+  
+  
