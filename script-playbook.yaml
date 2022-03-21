@@ -4,6 +4,7 @@
   tasks:
   - name: Run a script with arguments (free form)
     ansible.builtin.script: hello-script.sh
+    ignore_errors: true
     register: cmd_output
 
   - debug: var=cmd_output
